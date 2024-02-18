@@ -7,6 +7,11 @@ body {
   background: linear-gradient(90deg, rgb(255, 255, 255) 4%, rgba(251, 111, 243, 0.2274159664) 100%);
 }
 
+nav {
+  background-color: white;
+  z-index: 9999999999;
+}
+
 .p-set {
   position: relative;
   top: -40px;

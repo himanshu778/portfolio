@@ -5,6 +5,10 @@ body{
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 4%, rgba(251,111,243,0.2274159663865546) 100%);
 }
+nav{
+    background-color: white;
+    z-index: 9999999999;
+}
 .p-set{
     position: relative;
     top: -40px;
