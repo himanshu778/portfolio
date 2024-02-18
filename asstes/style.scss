@@ -1,0 +1,88 @@
+*{
+    font-family: 'Rubik', sans-serif;
+}
+body{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 4%, rgba(251,111,243,0.2274159663865546) 100%);
+}
+.p-set{
+    position: relative;
+    top: -40px;
+    z-index: 9999;
+}
+.service{
+    .card{
+        margin-bottom: 1rem;
+        &:hover{
+            box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+            border: none;
+            transition: 0.3s;
+        }
+    }
+}
+// body {
+//     cursor: none;
+//   }
+  
+  .custom-cursor {
+    position: fixed;
+    width: px; 
+    height: 100px;
+    background-image: url(https://d2kq0urxkarztv.cloudfront.net/56176d7d4ff02cd032e50c21/2675879/upload-cd738184-e1d9-4f21-9395-f43a4e364809.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    pointer-events: none;
+    z-index: 9999;
+  }
+p{
+    color: #556070 !important;
+}
+@media(max-width: 767px){
+    .d-flex{
+        flex-wrap: wrap !important;
+    }
+    .blk.w-50, .card-act.w-50, .port.w-50{
+        width: 100% !important;
+    }
+    .dell .p-set{
+        position: relative;
+        top: 0px;
+        z-index: 9999;
+    }
+    
+    .d-hide{
+        display: none;
+    }
+    footer{
+        .justify-content-between{
+            justify-content: center !important;
+        }
+    }
+}
+.testimonial {
+    padding: 20px;
+  }
+
+  .btn{
+   border-radius: 4px;
+   border: none;
+   &.btn-primary{
+    background-color: #A53DFF !important;
+    border: none;
+   }
+   &.btn-outline-primary{
+    background-color: transparent ;
+    border: 1px solid #A53DFF;
+    color: #A53DFF;
+    &:hover{
+        background-color: #A53DFF !important;
+        color: white;
+        border: 1px solid #A53DFF;
+    }
+   }
+  }
+  
+  
+
+  
