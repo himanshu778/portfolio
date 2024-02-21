@@ -9,6 +9,9 @@ nav{
     background-color: white;
     z-index: 9999999999;
 }
+.start{
+    z-index: 9999999999999999999999999999999;
+}
 .p-set{
     position: relative;
     top: -40px;
@@ -67,6 +70,28 @@ p{
 .testimonial {
     padding: 20px;
   }
+
+  .nav-pills{
+    .nav-link{
+        &:is(.active){
+            background-color: #A53DFF !important;
+            border: none;
+        }
+        &:not(.active){
+          color: black;
+        }
+      }
+  }
+.icon{
+    img{
+        width: 170px;
+        border-radius: 100%;
+        object-fit: cover;
+        height: 170px;
+      }
+    
+  }
+ 
 
   .btn{
    border-radius: 4px;

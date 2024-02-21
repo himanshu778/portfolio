@@ -12,6 +12,10 @@ nav {
   z-index: 9999999999;
 }
 
+.start {
+  z-index: 10000000000000000000000000000000;
+}
+
 .p-set {
   position: relative;
   top: -40px;
@@ -63,6 +67,22 @@ p {
 }
 .testimonial {
   padding: 20px;
+}
+
+.nav-pills .nav-link:is(.active) {
+  background-color: #A53DFF !important;
+  border: none;
+}
+.nav-pills .nav-link:not(.active) {
+  color: black;
+}
+
+.icon img {
+  width: 170px;
+  border-radius: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 170px;
 }
 
 .btn {
