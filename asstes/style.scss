@@ -2,8 +2,13 @@
     font-family: 'Rubik', sans-serif;
 }
 body{
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 4%, rgba(251,111,243,0.2274159663865546) 100%);
+    // background: rgb(255,255,255);
+    // background: linear-gradient(90deg, rgba(255,255,255,1) 4%, rgba(251,111,243,0.2274159663865546) 100%);
+    background-image: url('../images/65cfa8a367d6985ab0858db7_BG (3)-p-2000.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 nav{
     background-color: white;
@@ -44,6 +49,17 @@ nav{
   }
 p{
     color: #556070 !important;
+}
+section{
+    background-image: url('../images/65cfa8a367d6985ab0858db7_BG (3)-p-2000.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    .layer{
+        background: linear-gradient(90deg, rgba(255,255,255,1) 4%, rgba(251,111,243,0.2274159663865546) 100%);
+    }
 }
 @media(max-width: 767px){
     .d-flex{
